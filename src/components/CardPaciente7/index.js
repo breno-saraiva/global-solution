@@ -4,17 +4,20 @@ import pastaImagem from "../../image/Cama.png";
 import "./styles.css";
 
 
-const CardPaciente = () => {
+const CardPaciente7 = () => {
     return (
         <C.Card>
-            <div class='leito'>
-                <h2>Leito 1</h2>
+            <div class='leito7'>
+
+
+                <i class="fa-solid fa-hospital-user imagem-leito7"></i>  
                 
-                <i class="fa-solid fa-bed-pulse imagem-leito"></i>
+                <h2>Leito 7</h2>
+                
 
             </div>
         </C.Card>
     );
 };
 
-export default CardPaciente;
+export default CardPaciente7;

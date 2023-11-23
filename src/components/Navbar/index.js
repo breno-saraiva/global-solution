@@ -14,7 +14,7 @@ function Navbar() {
 		<header>
 			<h3>LOGO</h3>
 			<nav ref={navRef}>
-				<a href="/#">Usuario</a>
+				<a href="/#">Usuário</a>
 				<a href="/#">Paciente</a>
 				<a href="/#">Blog</a>
 				<a href="/#">Sobre</a>

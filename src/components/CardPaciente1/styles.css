@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.leito {
+    border: 2px solid #29335c;
+    background-color: azure;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+    
+}
+
+.imagem-leito {
+    color: #29335c;
+}
+
+.leito,h2{
+    font-size: 40px;
+}
+
+.leito:hover{
+    cursor: pointer;
+    scale: 1.05;
+    border-color: green;
+    .imagem-leito {
+        color: green;
+    }
+}
