@@ -1,6 +1,5 @@
 import React from "react";
 import * as C from "./styles";
-import pastaImagem from "../../image/Cama.png";
 import "./styles.css";
 
 
