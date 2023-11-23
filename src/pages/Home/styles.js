@@ -11,3 +11,6 @@ display:flex;
 justify-content:space-around;
 flex-wrap:wrap;
 `;
+
+export const Foot = styled.div`
+`;

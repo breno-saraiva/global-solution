@@ -14,7 +14,7 @@ import CardPaciente7 from "../../components/CardPaciente7";
 import CardPaciente8 from "../../components/CardPaciente8";
 import CardPaciente9 from "../../components/CardPaciente9";
 import CardPaciente10 from "../../components/CardPaciente10";
-
+import Footer from "../../components/Footer";
 
 
 const Home = () => {
@@ -40,6 +40,10 @@ const Home = () => {
       <CardPaciente9/>
       <CardPaciente10/>
     </C.Card>
+
+    <C.Foot>
+      <Footer/>
+    </C.Foot>
 
       </div> 
 
