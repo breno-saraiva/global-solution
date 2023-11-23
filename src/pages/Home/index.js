@@ -6,6 +6,7 @@ import * as C from "./styles";
 import Navbar from "../../components/Navbar";
 import CardPaciente from "../../components/CardPaciente";
 
+
 const Home = () => {
   const { signout } = useAuth();
   const navigate = useNavigate();
@@ -18,6 +19,13 @@ const Home = () => {
     </C.Container>
   
     <C.Card>
+      <CardPaciente/>
+      <CardPaciente/>
+      <CardPaciente/>
+      <CardPaciente/>
+      <CardPaciente/>
+      <CardPaciente/>
+      <CardPaciente/>
       <CardPaciente/>
     </C.Card>
 
