@@ -1,22 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import * as C from "./styles";
 import "./styles.css";
 
-
 const CardPaciente7 = () => {
-    return (
-        <C.Card>
-            <div class='leito7'>
+  const [modalOpen, setModalOpen] = useState(false);
 
+  const handleOpenModal = () => {
+    setModalOpen(true);
+  };
 
-                <i class="fa-solid fa-hospital-user imagem-leito7"></i>  
-                
-                <h2>Leito 7</h2>
-                
+  const handleCloseModal = () => {
+    setModalOpen(false);
+  };
 
-            </div>
-        </C.Card>
-    );
+  return (
+    <div>
+      <C.Card>
+        <div className='leito7' onClick={handleOpenModal}>
+          <i className="fa-solid fa-hospital-user imagem-leito7"></i>
+          <h2>Leito 7</h2>
+        </div>
+      </C.Card>
+
+      {modalOpen && (
+        <div className="modal-overlay7">
+          <div className="modal7">
+            <span className="close-button7" onClick={handleCloseModal}>
+              &times;
+            </span>
+            <h1>Fábio Leon</h1>
+            <p><b>Idade:</b> 30 anos</p>
+            <p><b>Sexo:</b> Masculino</p>
+            <p><b>Data:</b> 20/11/2023</p>
+            <p><b>Motivo:</b> Gripe</p>
+            <p><b>Temperatura:</b> 36.8°</p>
+            <p><b>Pressão:</b> 12/8</p>
+            <p><b>Saturação:</b> 98%</p>
+            <p><b>Batimentos:</b> 65 bpm</p>
+            <br></br>
+
+            <p>------------------------------</p>
+          
+          </div>
+        </div>
+      )}
+    </div>
+  );
 };
 
 export default CardPaciente7;

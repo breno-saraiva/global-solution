@@ -8,13 +8,6 @@
 
 }
 
-* {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    letter-spacing: 1px;
-}
 
 main {
     height: 20vh;
@@ -23,6 +16,10 @@ main {
 footer {
     width: 100%;
     color: var(--color-neutral-40);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
 }
 
 .footer-link {
