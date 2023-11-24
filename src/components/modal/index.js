@@ -6,6 +6,7 @@ export function Modal (props) {
             <div className="background">
                 <div className="modal">
                     <h1>
+                        
                         criando um Modal
                     </h1>
                     <p>tentando criar algo</p>
